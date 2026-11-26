@@ -58,11 +58,6 @@ and execute:
 python pipeline.py
 ```
 
-## Documentation
-
-- [Pipeline Architecture](docs/Architecture.md)
-- [Data Quality, Governance and Security](docs/Governance.md)
-
 ## Production Considerations
 
 The pipeline runs locally to simulate a cloud-based
