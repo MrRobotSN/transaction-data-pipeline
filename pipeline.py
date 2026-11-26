@@ -273,8 +273,4 @@ delta_table = DeltaTable.forPath(
 #).show(truncate=False)
 
 
-spark.read.parquet(
-    (rejected_folder / "transactions_005.csv").as_posix()
-).show(truncate=False)
-
 spark.stop()
