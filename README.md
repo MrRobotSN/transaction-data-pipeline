@@ -60,8 +60,8 @@ python pipeline.py
 
 ## Documentation
 
-- [Pipeline Architecture](docs/architecture.md)
-- [Data Quality, Governance and Security](docs/governance.md)
+- [Pipeline Architecture](docs/Architecture.md)
+- [Data Quality, Governance and Security](docs/Governance.md)
 
 ## Production Considerations
 
