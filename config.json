@@ -1,0 +1,27 @@
+{
+    "source_folder": "data/incoming",
+    "target_folder": "data/target",
+    "rejected_folder": "data/rejected",
+    "processed_folder": "data/processed",
+    "file_name": "*.csv",
+    "primary_key": "transaction_id",
+    "deduplication_order": "ingested_at",
+    "late_arrival_hours": 24,
+    "schema": {
+        "transaction_id": "string",
+        "account_id": "string",
+        "transaction_at": "timestamp",
+        "ingested_at": "timestamp",
+        "amount": "decimal(18,2)",
+        "currency": "string"
+    } ,
+
+    "required_columns": [
+    "transaction_id",
+    "account_id",
+    "transaction_at",
+    "ingested_at",
+    "amount",
+    "currency"
+]
+}
