@@ -42,3 +42,4 @@ A partner manifest defines the expected files and record counts. Process availab
 ## Assumptions
 
 The existing local PySpark pipeline is the transformation proof of concept; the AWS components are proposed, not deployed. A single active writer is assumed; the Delta audit table is not a distributed lock. Partner delivery cutoffs, quality thresholds and Glue capacity must be agreed and validated through representative load testing before the 06:00 SLA can be guaranteed.
+ 

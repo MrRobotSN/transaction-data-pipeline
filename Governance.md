@@ -17,3 +17,4 @@ Agree on permitted data use, retention, access reviews and incident responsibili
 Data engineers own the implementation, automated tests and monitoring of these controls alongside data owners and security teams. Publish data only after reconciliation and agreed quality checks pass.
 
 The local PySpark pipeline demonstrates validation and quarantine. Cloud security and governance controls are proposed, not deployed.
+ 
